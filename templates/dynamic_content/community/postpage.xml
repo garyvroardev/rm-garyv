@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<div class="body-pretender post-page">
+    <include template="community/roar/includes/garyvee/fb-script.html"/>
+    <include template="community/roar/includes/garyvee/menu.html"/>
+    <div class="post-edit-mode"></div>
+    <div class="rebelbar">
+        <site_title_info source_site="parent_site"/>
+        <sections source_site="parent_site"/>
+        <div class="rebel-search">
+            <include template="community/roar/includes/garyvee/search.html"/>
+        </div>
+        <include template="community/roar/includes/garyvee/share-buttons.html"/>
+    </div>
+    <div class="rebelbar-fake"></div>
+    <div class="main">
+        <post_content format='post_splash'/>
+        <div class="content layout-width permalink">
+            <div class="post-page clearfix">
+                <div class="two-cell-col article-module pull-left">
+                    <post_content format='post_garyvee'/>
+                    <include template="community/roar/includes/garyvee/newsletter.html"/>
+                    <div class="section-header">
+                        <h1>More Stories</h1>
+                    </div>
+                    <posts name="news" format="news" source="frontpage" limit="12"/>
+                </div>
+                <div class="one-cell-col pull-right">
+                    <div class="blog-module source-blog">
+                        <include template="community/roar/includes/garyvee/join.html"/>
+                        <include template="community/roar/includes/garyvee/follow.html"/>
+
+                        <div class="sideposts">
+                            <sidebar source_site="parent_site" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tracking">
+        <include template="community/roar/includes/garyvee/fb_pixels.html"/>
+        <include template="community/roar/includes/garyvee/addroll_pixels.html"/>
+        <include template="community/roar/includes/garyvee/adword-script.html"/>
+    </div>
+</div>

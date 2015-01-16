@@ -1,0 +1,468 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .section-header h1,
+    .social-container .social-header h2,
+    .side-bar-wrapper .sideposts-header h2 {
+        font-size: 16px;
+    }
+    .side_bar .headline-container .headline {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .side_bar .headline-container .headline,
+    .side_bar .headline-container .headline a {
+        -webkit-line-clamp: 6;
+    }
+    .side-bar-items .widget article a {
+        vertical-align: top;
+    }
+    .rebel-search-section input {
+        width: 100%;
+    }
+    .rebel-search-section button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .search-section .widget .by-date,
+    .search-section .widget .by-author {
+        font-size: 13px;
+    }
+
+    .two-cell-col .news-section .widget .page-article {
+        height: 162px;
+        margin-bottom: 68px;
+    }
+    .notification li.error,
+    .notification li.subscribed {
+        bottom: 0;
+        font-size: 16px;
+        line-height: 45px;
+        left: 0;
+        padding: 20px 10%;
+        position: fixed;
+        right: 0;
+        width: 80%;
+    }
+    .notification li.error {
+        background: #bf0000;
+        color: white;
+    }
+    .notification li.subscribed {
+        background: #000000;
+    }
+    .join-popup-form.slide-in {
+        width: 100%;
+    }
+ }
+ @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .garyvee-icon {
+        background-size: 33px 175px;
+    }
+    .garyvee-icon.facebook-icon {
+        background-position: 0 -58px;
+        width: 30px;
+        height: 27px;
+    }
+    .garyvee-icon.twitter-icon {
+        background-position: 0 -88px;
+        width: 28px;
+        height: 23px;
+    }
+    .garyvee-icon.linkedin-icon {
+        background-position: 0 -114px;
+        width: 26px;
+        height: 25px;
+    }
+    .garyvee-icon.email-icon {
+        background-position: 0 -139px;
+        width: 33px;
+        height: 21px;
+    }
+
+    .follow-buttons-container,
+    .nav-bar .nav-menu {
+        display:none;
+    }
+    .social-container .widget {
+        width: 48%;
+        height: 255px;
+        margin: 0 0 20px !important;
+    }
+    .rebel-search {
+        top: 11px;
+    }
+
+    .social-container .widget .page, .social-container .widget .image {
+        height: 200px;
+    }
+
+    .menu-show {
+        top: 10px;
+    }
+
+    .rebelbar,
+    .rebelbar-fake {
+        height: auto;
+        min-height: 42px;
+    }
+
+    .side-bar-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        padding: 15px 25px;
+    }
+
+    .social-container {
+        margin: 10px 0;
+    }
+
+    .giant-splash .headline-container .headline {
+        font-size: 31px;
+        line-height: 38px;
+    }
+
+    .page .author-module {
+        padding: 0 0 10px 0;
+    }
+
+    .rebelbar {
+        height: 44px;
+    }
+    .rebelbar-fake {
+        height: 58px;
+    }
+    .rebelbar .rebel-search {
+        width: 110px;
+    }
+
+    .rebelbar .rebel-search input {
+        width: 100%;
+    }
+
+    .two-cell-col .posts-wrapper .headline-container {
+        height: 68px;
+    }
+
+    .search-section .headline-container .headline,
+    .two-cell-col .headline-container .headline {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .site-widget {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .news-section .headline,
+    .news-section .headline-container .headline, 
+    .splash-section .headline-container .headline{
+        padding-top: 11px;
+    }
+
+    .splash-section .widget {
+        padding-top: 25px;
+    }
+    .two-cell-col .widget {
+        margin-bottom: 0;
+    }
+    .rebel-search form {
+        width: 100%;
+    }
+    .social-tab-i  .share-email:after{
+        padding-left: 0 !important;
+    }
+    .share-buttons .social-tab-i .icons-share.tw {
+        margin-top: 0;
+    }
+
+    .menu-global { padding-top: 58px; }
+
+    .edit-dashboard .menu-show { margin:0; }
+    .edit-dashboard .menu-global { padding-top:52px; }
+
+    .two-cell-col .news-section .widget .page-article {
+        margin-bottom: 68px;
+    }
+    .share-widget-mobile {
+        display: none;
+    }
+    .rebel-search {
+        right: 18px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .section-investments .section-cover {
+        background-image: url(https://s3.amazonaws.com/partners.rebelmouse.com/garyvee/140903-Investments-header-mobile.jpg);
+    }
+    .section-media-appearances .section-cover {
+        background-image: url(https://s3.amazonaws.com/partners.rebelmouse.com/garyvee/140903-Media_Appearances-header-mobile.png);
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .side-bar-wrapper {
+        width: 48%;
+        float:left;
+    }
+
+    .side-bar-wrapper:nth-child(odd) {
+        float: right;
+    }
+
+    .sideposts-content {
+        padding: 10px;
+    }
+
+    .section-header h1,
+    .side-bar-wrapper .sideposts-header h2,
+    .social-container .social-header h2 {
+        float: left;
+        font-size: 21px;
+        line-height: 47px;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .side-bar-wrapper .headline-container .headline a,
+    .side-bar-wrapper .headline-container .headline {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .share-buttons .share-linkedin:after,
+    .share-buttons .share-fb:after,
+    .share-buttons .share-tw:after {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    #article-content .enable-panel.share-buttons .share-fb:after,
+    #article-content .enable-panel.share-buttons .share-tw:after,
+    .share-buttons .share-fb:after,
+    .share-buttons .share-tw:after {
+        content: "SHARE";
+    }
+ }
+
+@media only screen and (max-width: 1280px) {
+    .side-bar-wrapper .sideposts-header .sideposts-header-arrow {
+        font-size:0;
+        background: url("/static/img/whitelabel/garyvee/icons.png") no-repeat;
+        vertical-align: middle;
+        background-position: -35px 0;
+        position: relative;
+        width: 9px;
+        height: 23px;
+        top: 13px;
+    }
+
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1100px) {
+    #article-content .enable-panel.share-buttons .share-fb:after,
+    #article-content .enable-panel.share-buttons .share-tw:after,
+    .share-buttons .share-fb:after,
+    .share-buttons .share-tw:after {
+        content: "SHARE";
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .share-widget-mobile {
+        display: none;
+    }
+    .nav-menu {
+        right: 206px;
+    }
+    .rebel-search {
+        right: 18px;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    .navbar-share-panel-wrapper .share-buttons .share-linkedin:after,
+    .navbar-share-panel-wrapper .share-buttons .share-fb:after,
+    .navbar-share-panel-wrapper .share-buttons .share-tw:after,
+    .share-buttons .share-email:after,
+    .share-buttons .share-linkedin:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .search-section .headline-container .headline,
+    .two-cell-col .headline-container .headline {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .sideposts-content .headline-container {
+        width: 57%;
+        padding-left: 6px;
+    }
+
+    .sideposts-content .widget .image {
+        width: 37%;
+    }
+
+    .sideposts-content .widget article a {
+        width: 37%;
+    }
+
+    .sideposts-content {
+        padding: 10px;
+    }
+
+    .section-header h1,
+    .side-bar-wrapper .sideposts-header h2,
+    .social-container .social-header h2 {
+        float: left;
+        font-size: 21px;
+        line-height: 47px;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .side-bar-wrapper .headline-container .headline a,
+    .side-bar-wrapper .headline-container .headline {
+        font-size: 16px;
+    }
+
+    .site-widget .join-community form .site-subscribe:after {
+        content: 'SIGN UP'
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .social-container .widget {
+        float: left !important;
+    }
+    .rebelbar, 
+    .rebelbar-fake {
+        height: 86px;
+    }
+
+    .rebelbar .site-data {
+        margin: 20px 10px 0 0;
+    }
+
+    .rebelbar .nav-bar {
+        margin-top: 9px;
+    }
+
+    .rebelbar .rebel-search {
+        top: 28px;
+    }
+
+    .menu-show {
+        margin-top: 17px;
+    }
+
+    .layout-width {
+        padding: 25px 25px 20px;
+    }
+
+    .two-cell-col {
+        padding-right: 20px;
+    }
+    .one-cell-col .blog-module {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .side_bar .sideposts-header h2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 90%;
+        color: #fff;
+    }
+    .navbar-share-panel-wrapper .share-buttons .show-buttons {
+        height: 44px !important;
+        line-height: 44px !important;
+        padding: 0 !important;
+        width: 40px !important;
+    }
+    .navbar-share-panel-wrapper .share-plus, .navbar-share-panel-wrapper .icons-share {
+        background: url("/static/img/sprites/share-bar-mobile.png?8") repeat scroll 0 0 / 710px 57px;
+    }
+    .navbar-share-panel-wrapper .icons-share.fb {
+        background-position: -16px -18px;
+    }
+    .navbar-share-panel-wrapper .icons-share.tw {
+        background-position: -60px -17px;
+    }
+    .navbar-share-panel-wrapper .share-buttons .icons-share.em {
+        background-position: -321px -15px;
+    }
+    .navbar-share-panel-wrapper .icons-share.tl {
+        background-position: -193px -17px;
+    }
+    .navbar-share-panel-wrapper .buttons-fade {
+        width: 90px;
+    }
+    .navbar-share-panel-wrapper .share-buttons .share-plus {
+        background-position: -358px -5px;
+    }
+}
+
+@media (max-width: 568px) and (orientation: portrait) {
+    .edit-mode-opened .menu-show {
+        background-color: transparent;
+        left: 6px;
+        top: 10px;
+    }
+
+    .edit-mode-opened .nav-bar {
+        opacity:0;
+    }
+
+    .file-form, .input-form {
+        margin-bottom: 10px;
+    }
+}
+/*Image hover share-bar*/
+@media only screen and (min-width: 769px) {
+    .share-buttons .social-tab-i .share-fb,
+    .share-buttons .social-tab-i .share-tw,
+    .share-buttons .social-tab-i .share-pinterest,
+    .share-buttons .social-tab-i .share-tumblr,
+    .share-buttons .social-tab-i .share-email,
+    .share-buttons .social-tab-i  > a:after {
+      line-height: 52px;
+    }
+    .social-tab-i  .share-email:after{
+        content: " "!important;
+        padding-left: 0 !important;
+    }
+    .share-buttons .social-tab-i .icons-share.tw {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .post-splash .headline-container .headline a {
+        color: #000;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 568px) {
+    .share-buttons .social-tab-i .share-fb,
+    .share-buttons .social-tab-i .share-tw,
+    .share-buttons .social-tab-i .share-pinterest,
+    .share-buttons .social-tab-i .share-tumblr,
+    .share-buttons .social-tab-i .share-email,
+    .share-buttons .social-tab-i  > a:after {
+        width: 43px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 478px) {
+    #article-content .enable-panel.share-buttons .share-tw,
+    #article-content .enable-panel.share-buttons .share-fb {
+        height: 28px;
+        line-height: 28px;
+    }
+}

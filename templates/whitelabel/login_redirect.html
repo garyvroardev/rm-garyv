@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block title %}Log in{% endblock %}
+
+{% block styles %}
+    {% css_include 'frontpage_whitelabel_core' %}
+    {% css_include 'whitelabel_signup' %}
+{% endblock %}
+
+{% block scripts %}
+    {% if debug %}
+        {% js_include "libs/require/require" %}
+        {% js_include "amd_config" %}
+    {% else %}
+        <script type="text/javascript">
+        {% include "libs.js" ignore missing %}
+        </script>
+    {% endif %}
+    <script>
+    (function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '720822821302970']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(["track", "PixelInitialized", {}]);
+    </script>
+    <noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=720822821302970&ev=NoScript" /></noscript>
+{% endblock %}
+
+{%block body_attributes %} class="signup garyvee-body" {% endblock %}
+
+{% block body %}
+<div class="main">
+    <div class="signup-login">
+        <div class="title">VAY•NER•CHUK</div>
+        <div class="links">
+            <a href="#" data-method="signup" class="active">Sign Up</a> |
+            <a href="#" data-method="login">Log In</a>
+        </div>
+        <div class="buttons signup-buttons">
+            <a class="provider-btn twitter" href="/core/users/login/twitter/"><i class="icons-dodo twitter-wh-l"></i> Sign Up with Twitter</a>
+            <a class="provider-btn email" href="/core/setup/sitename?type=email"><i class="icons-dodo email-wh-l"></i> Sign Up with Email</a>
+        </div>
+        <div class="buttons hidden login-buttons">
+            <a class="provider-btn twitter" href="/core/users/login/twitter/"><i class="icons-dodo twitter-wh-l"></i> Log In with Twitter</a>
+            <a class="provider-btn email" href="/core/users/email_login/"><i class="icons-dodo email-wh-l"></i> Log In with Email</a>
+        </div>
+    </div>
+    <div class="content">
+<!--         <div class="title">Why Join The Dodo?</div>
+        <p>Because you care deeply about animals &ndash; and have great ideas, photos, videos, Vines, etc. that you want to share with the world. Join other community members like <a href="https://www.thedodo.com/michelle-obama-pandas-bring-na-487667231.html" target="_blank">First Lady Michelle Obama</a>, <a href="https://www.thedodo.com/community/BillMaher/cats-dont-belong-in-laboratori-393150091.html" target="_blank">Bill Maher</a>, <a href="https://www.thedodo.com/community/ariannahuffington/on-the-importance-of-appreciat-387999900.html" target="_blank">Arianna Huffington</a>, "The Cove" director <a href="https://www.thedodo.com/community/louiepsihoyos/" target="_blank">Louie Psihoyos</a>, "Blackfish" director <a href=https://www.thedodo.com/community/gabrielacowperthwaite/" target="_blank">Gabriela Cowperthwaite</a>, <a href="https://www.thedodo.com/community/ricobarry/" target="_blank">Ric O'Barry</a>, <a href="https://www.thedodo.com/your-cat-the-ultimate-wingman-406772516.html" target="_blank">Michael Showalter</a>, <a href="https://www.thedodo.com/greenwald-the-dogs-you-rescue--389145041.html" target="_blank">Glenn Greenwald</a>, <a href="https://www.thedodo.com/thanks-to-mayor-de-blasio-nycs-474308577.html" target="_blank">Pink</a>, primatologist <a href="https://www.thedodo.com/community/FransDeWaal/bonobos-learn-empathy-from-the-386737528.html" target="_blank">Frans De Waal</a>, and CNN's <a href="https://www.thedodo.com/community/JakeTapper/a-cat-lovers-complicated-histo-391631885.html" target="_blank">Jake Tapper</a>.</p>
+
+        <p>The Dodo's editors will hand-select their favorite posts and feature them on the main site.</p> -->
+
+        <!-- <div class="about-community">
+            <div class="title">About The Dodo Community</div>
+            <p>A key part of The Dodo that we're especially excited about will be our Dodo Community. As a Community member you'll be able to post content directly to the site from your own Dodo homepage that can pull in your animal-related content from the social networks you're already a part of. If we like something you add to your Dodo page, we just might feature it on the main site. </p>
+            <p>You'll be able to easily publish an original post or anything animal-related that you've already posted to Instagram, Twitter, YouTube, Flickr and more. We’ll provide a great home, smart audience, and vibrant social environment for it to find a wide readership. </p>
+            <p>You'll be able to easily publish an original post or anything animal-related that you've already posted to Instagram, Twitter, YouTube, Flickr and more. We’ll provide a great home, smart audience, and vibrant social environment for it to find a wide readership. </p>
+        </div>
+        <ul class="static-data carusel">
+            <li>
+                <div class="headline"><i class="icons-dodo"></i> How does it work?</div>
+                <p>You'll be able to easily publish an original post or anything animal-related that you've already posted to Instagram, Twitter, YouTube, Flickr and more. We’ll provide a great home, smart audience, and vibrant social environment for it to find a wide readership. </p>
+            </li>
+            <li>
+                <div class="headline"><i class="icons-dodo"></i> What types of posts are you looking for?</div>
+                <p>You'll be able to easily publish an original post or anything animal-related that you've already posted to Instagram, Twitter, YouTube, Flickr and more. We’ll provide a great home, smart audience, and vibrant social environment for it to find a wide readership. </p>
+            </li>
+            <li>
+                <div class="headline"><i class="icons-dodo"></i> Will you ever post to any of my social accounts?</div>
+                <p>You'll be able to easily publish an original post or anything animal-related that you've already posted to Instagram, Twitter, YouTube, Flickr and more. We’ll provide a great home, smart audience, and vibrant social environment for it to find a wide readership. </p>
+            </li>
+        </ul> -->
+    </div>
+</div>
+</div>
+{% endblock %}
+
+{% block app_init %}
+<script type="text/javascript">
+    require(['underscore', 'jquery'], function () {
+        define('settings', function () {
+            return {};
+        });
+        require(['whitelabel/apps/signup'], function (app) {
+            app.initialize();
+        });
+    });
+</script>
+{% endblock %}
+
+{% block google_analytics %}
+    {% if user_google_analytics_id %}
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{user_google_analytics_id}}']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    {% endif %}
+{% endblock google_analytics %}
+
+{% block kissmetrics %}
+{% endblock kissmetrics %}
+
+{% include "whitelabel/community/dodo/widgets.html" %}

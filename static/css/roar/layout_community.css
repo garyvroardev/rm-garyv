@@ -1,0 +1,26 @@
+.community-frontpage .giant-splash .social-panel ul li:last-child {
+    margin-right: 0;
+}
+
+.community-frontpage .giant-splash .site-widget .site-title {
+    text-align: center;
+}
+
+.community-frontpage .giant-splash .get-alerts {
+    display: none;
+}
+
+.community-frontpage .giant-splash {
+    min-height: 300px;
+    background: #234352;
+}
+
+.community-frontpage .giant-splash .site-widget {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 166px;
+    background-color: transparent;
+}

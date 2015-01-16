@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v9/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+.the-garyvee-body .table-str .additional-info .title {
+    padding: 23px 0 15px;
+    font-family: Open sans;
+}
+
+.the-garyvee-body .table-str .additional-info .content {
+    padding: 40px 10% 0;
+}
+
+.the-garyvee-body .table-str .form .headline {
+    font-size: 26px;
+    color: #444444;
+    padding: 60px 0 14px 0;
+    font-family: Open sans;
+}
+
+.the-garyvee-body .formRow .field .sitename-wrp {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 1px solid #fff;
+    height: 43px;
+    padding: 0 10px;
+    background-color: #ededed;
+}
+
+.the-garyvee-body .field .sitename-wrp input.text {
+    max-width: 85%;
+}
+
+.the-garyvee-body .signup label {
+    color: #414141;
+    font-size: 18px;
+}
+
+.the-garyvee-body .control {
+    background: #ec3f35;
+    color: #FFF;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font: 12px 'PT Sans', Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 12px;
+    padding: 14px 10px;
+    width: 226px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid #c03730;
+}
+
+.the-garyvee-body .control:active {
+    margin-top: 2px;
+    border: none;
+}
+
+
+.the-garyvee-body .video-container {
+    padding-top: 25px;
+}
+
+.the-garyvee-body .signup .title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.the-garyvee-body .formRow input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 1px solid #fff;
+    height: 43px;
+    padding: 0 10px;
+    background-color: #ededed;
+}
+
+.the-garyvee-body .table-str .additional-info {
+background: #1a303b;
+}
+
+.the-garyvee-body .formRow input {
+    color: #6b6b6b;
+}
+
+.the-garyvee-body .table-str .form {
+    padding: 0 5%;
+    background-color: #f5f5f5;
+    color: #414141;
+}
+
+html,
+.the-garyvee-body,
+.the-garyvee-body .main {
+    height: 100%;
+}
+
+.garyvee-body,
+.garyvee-body .main {
+    background: #254554;
+}
+
+.garyvee-body {
+    border-top: 8px solid #a1bec6;
+}
+
+.garyvee-body .signup-login .links a {
+    color: #a4c1c8;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.garyvee-body .signup-login .links a:hover {
+    color: #fff;
+}
+
+.garyvee-body .signup-login .title {
+    color:#fff;
+    font: 28px 'PT Sans Bold', Arial, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.garyvee-body .signup-login .links {
+padding: 0 0 30px 0;
+}
+
+.garyvee-body .signup-login .links a.active {
+font-size: 17px;
+color: #fff;
+}
+
+.garyvee-body .signup-login .links a {
+margin: 0 15px 0;
+font-size: 17px;
+}
+
+.garyvee-body .row.with-label label {
+    color: #fff;
+}
+
+.garyvee-body .password-reset-link {
+    color: #8AA9B8;
+}

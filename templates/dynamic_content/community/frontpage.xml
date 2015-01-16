@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<div class="body-pretender community-frontpage">
+    <include template="community/roar/includes/garyvee/fb-script.html"/>
+    <include template="community/roar/includes/garyvee/menu.html"/>
+    <div class="post-edit-mode"></div>
+    <div class="rebelbar">
+        <site_title_info source_site="parent_site"/>
+        <sections source_site="parent_site"/>
+        <div class="rebel-search">
+            <include template="community/roar/includes/garyvee/search.html"/>
+        </div>
+        <include template="community/roar/includes/garyvee/share-buttons.html"/>
+    </div>
+    <div class="rebelbar-fake"></div>
+    <div class="main">
+        <div class="giant-splash source-news" id="giant-splash">
+            <posts name="giant_splash" format="giant_splash" source="frontpage" limit="1"/>
+            <site_owner_profile/>
+        </div>
+        <div class="content layout-width">
+            <div class="post-list clearfix">
+                <div class="two-cell-col pull-left">
+                    <posts name="splash" format="splash" source="frontpage" limit="1" filters="section"/>
+                    <posts name="news" format="news" source="frontpage" limit="12" filters="section"/>
+                </div>
+                <div class="one-cell-col pull-right">
+                    <div class="blog-module source-blog">
+                        <include template="community/roar/includes/garyvee/join.html"/>
+                        <include template="community/roar/includes/garyvee/follow.html"/>
+
+                        <div class="sideposts">
+                            <sidebar source_site="parent_site" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tracking">
+        <include template="community/roar/includes/garyvee/fb_pixels.html"/>
+        <include template="community/roar/includes/garyvee/addroll_pixels.html"/>
+        <include template="community/roar/includes/garyvee/adword-script.html"/>
+    </div>
+    <include template="community/roar/includes/garyvee/newsletter.html"/>
+</div>

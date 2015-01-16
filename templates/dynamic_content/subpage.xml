@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<div class="body-pretender">
+    <include template="community/roar/includes/garyvee/fb-script.html"/>
+    <include template="community/roar/includes/garyvee/menu.html"/>
+    <div class="post-edit-mode"></div>
+    <div class="rebelbar">
+        <site_title_info source_site="current_site"/>
+        <sections source_site="current_site"/>
+        <div class="rebel-search">
+            <include template="community/roar/includes/garyvee/search.html"/>
+        </div>
+        <include template="community/roar/includes/garyvee/share-buttons.html"/>
+    </div>
+    <div class="rebelbar-fake"></div>
+    <div class="main">
+        <div class="section-cover"></div>
+        <div class="giant-splash source-news" id="giant-splash">
+            <posts name="giant_splash" format="giant_splash" source="frontpage" limit="1"/>
+        </div>
+        <div class="content layout-width">
+            <div class="post-list clearfix">
+                <div class="two-cell-col pull-left">
+                    <posts name="splash" format="splash" source="frontpage" limit="1"/>
+                    <posts name="news" format="news" source="frontpage" limit="8" loadmore="1"/>
+                </div>
+                <div class="one-cell-col pull-right">
+                    <div class="blog-module source-blog">
+                        <include template="community/roar/includes/garyvee/join.html"/>
+                        <include template="community/roar/includes/garyvee/follow.html"/>
+
+                        <div class="sideposts">
+                            <sidebar source_site="current_site" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-footer">
+                <div class="social-container">
+                     <include template="community/roar/includes/garyvee/social-header.html"/>
+                    <div class="social-content">
+                        <posts name="social-news" format="news" source="frontpage" section_url="Social" limit="6"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tracking">
+        <include template="community/roar/includes/garyvee/fb_pixels.html"/>
+        <include template="community/roar/includes/garyvee/addroll_pixels.html"/>
+        <include template="community/roar/includes/garyvee/adword-script.html"/>
+    </div>
+</div>
