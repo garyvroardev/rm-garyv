@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <div class="body-pretender community-frontpage">
+    <write_to_header>
+        <![CDATA[<meta name="google-site-verification" content="GYGT_aYtQ7SST0nHlayy2m3pnn7DNgb3dp1YEWzGsnw" />]]>
+    </write_to_header>
     <include template="community/roar/includes/garyvee/fb-script.html"/>
     <include template="community/roar/includes/garyvee/menu.html"/>
     <div class="post-edit-mode"></div>

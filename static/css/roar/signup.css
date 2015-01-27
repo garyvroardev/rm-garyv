@@ -4,7 +4,7 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v9/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v9/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 
 .the-garyvee-body .table-str .additional-info .title {
@@ -91,6 +91,14 @@
 
 .the-garyvee-body .table-str .additional-info {
 background: #1a303b;
+}
+
+.the-garyvee-body input#username:focus {
+background: transparent;
+}
+
+.the-garyvee-body .formRow .field {
+    background: transparent;
 }
 
 .the-garyvee-body .formRow input {
