@@ -2,10 +2,6 @@
     margin-right: 0;
 }
 
-.community-frontpage .giant-splash .site-widget .site-title {
-    text-align: center;
-}
-
 .community-frontpage .giant-splash .get-alerts {
     display: none;
 }
@@ -16,11 +12,18 @@
 }
 
 .community-frontpage .giant-splash .site-widget {
-    position: absolute;
-    top: 30%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 166px;
     background-color: transparent;
+    padding: 115px 0 0 0;
 }
+/*.community-frontpage .giant-splash .site-widget h2 {
+    color: #fff;
+}
+.user-profile-wrapper .social-panel {
+    width: 168px;
+    margin: 0 auto;
+}
+
+.user-profile-wrapper .edit-mode {
+    width: 177px;
+    left: 90px
+}*/

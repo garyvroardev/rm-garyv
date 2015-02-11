@@ -11,6 +11,7 @@
     {% if debug %}
         {% js_include "libs/require/require" %}
         {% js_include "amd_config" %}
+        {% js_include "libs/sprintf/sprintf" %}
     {% else %}
         <script type="text/javascript">
         {% include "libs.js" ignore missing %}

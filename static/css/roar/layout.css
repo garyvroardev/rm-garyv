@@ -93,8 +93,10 @@ body,
     text-align: center;
 }
 .site-widget .site-title {
-    margin-bottom: 4px;
-    font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 .site-widget .site-subtitle {
     margin-bottom: 10px;
@@ -380,8 +382,8 @@ body,
 }
 
 .social-container .widget {
-    width: 13.3333%;
-    margin: 0 1.988% !important;
+    width: 14.8%;
+    margin: 0 0.988% !important;
     height: 166px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -412,6 +414,10 @@ body,
     background-color: #244555;
     border-top: 8px solid #a0bec7;
 }
+.lt-ie9 .rebelbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .rebelbar-fake {
     height: 94px;
 }
@@ -422,6 +428,9 @@ body,
     border-radius: 3px;
     z-index: 4;
     margin-top: 3px;
+}
+.lt-ie9 .menu-show {
+    margin-top: 18px;
 }
 
 .menu-show:hover {
@@ -487,7 +496,7 @@ body,
 
 .nav-menu {
     position: absolute;
-    right: 406px;
+    right: 534px;
 }
 
 .social-content .widget .original-source,
@@ -703,7 +712,7 @@ body,
 }
 
 .share-buttons .share-fb {
-    width: auto; 
+    width: auto;
 }
 #article-content .enable-panel.share-buttons .share-fb:after,
 .share-buttons .share-fb:after {
@@ -1104,10 +1113,6 @@ input[type="text"] {
 .share-widget-mobile .btn .tw-icon {
     background-position: -2px -24px;
 }
-.nav-wrp {
-    position: relative;
-    left: 0;
-}
 .lt-ie9 .top-bar-icons {
     background: url("/static/img/whitelabel/garyvee/icons-ie8.png");
 }
@@ -1240,4 +1245,22 @@ input[type="text"] {
 #article-content .enable-panel.share-buttons .share-tw, #article-content .enable-panel.share-buttons .share-fb {
     padding: 15px;
     width: auto;
+}
+/* IE8 Fixes */
+.news-section .widget{
+    float: left;
+    display: inline-block;
+    margin-right: 2%;
+}
+.news-section .widget:nth-child(even){
+    margin: 0;
+    margin-bottom:15px;
+}
+.news-section .widget:nth-child(odd){
+    margin-right: 2%;
+    margin-bottom: 15px;
+}
+.share-buttons .social-tab-i .share:after,
+.share-buttons .social-tab-i .share {
+    content: ""!important;
 }
