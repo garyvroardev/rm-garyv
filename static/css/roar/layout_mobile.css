@@ -190,6 +190,10 @@
     .rebel-search {
         right: 18px;
     }
+    .top-share-placeholder .icons-share.pt {
+        background: url("/static/img/sprites/share-bar.png?7") no-repeat;
+        background-position: -245px -21px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -240,7 +244,7 @@
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 668px) {
     #article-content .enable-panel.share-buttons .share-fb:after,
     #article-content .enable-panel.share-buttons .share-tw:after,
     .share-buttons .share-fb:after,
@@ -288,7 +292,8 @@
     .navbar-share-panel-wrapper .share-buttons .share-fb:after,
     .navbar-share-panel-wrapper .share-buttons .share-tw:after,
     .share-buttons .share-email:after,
-    .share-buttons .share-linkedin:after {
+    .share-buttons .share-linkedin:after,
+    .share-buttons .share-pinterest:after {
         display: none;
     }
 }
@@ -500,6 +505,11 @@
         padding-right: 380px;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .navbar-share-panel-wrapper .share-pinterest {
+        margin-top: 6px;
+    }
+}
 @media only screen and (min-width : 569px) and (max-width : 768px) {
     .share-buttons .social-tab-i .share:after,
     .share-buttons .social-tab-i .share {
@@ -507,5 +517,6 @@
         width: 44px !important;
         height: 44px;
         line-height: 38px;
+
     }
 }

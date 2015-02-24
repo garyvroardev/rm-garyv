@@ -1246,6 +1246,13 @@ input[type="text"] {
     padding: 15px;
     width: auto;
 }
+#article-content .top-share-placeholder.share-buttons .share-pinterest:after {
+    content: "PIN IT";
+    font: 700 13px "Tahoma";
+}
+#article-content .top-share-placeholder.share-buttons .share-pinterest {
+    width: auto;
+}
 /* IE8 Fixes */
 .news-section .widget{
     float: left;
