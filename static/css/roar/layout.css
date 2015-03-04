@@ -830,8 +830,13 @@ body,
 svg {
   width: 1.8em;
   height: 1.8em;
-  fill: #fff; }
-
+  fill: #fff;
+}
+#tab-data svg,
+.highcharts-container svg {
+    width: 100%;
+    height: 100%;
+}
 .sc--tiny {
   font-size: 9px; }
   .sc--tiny .sc-text {
